@@ -7,23 +7,23 @@ var faker = require('faker');
 
 // routes
 app.get("/", function(req, res) {
-    res.render("index.ejs", {"name":faker.name.findName()});
+    res.render("index.html", {"name":faker.name.findName()});
 });
 
 app.get("/cpp", function(req, res) {
-    res.render("cpp.ejs", {"name":faker.name.findName()});
+    res.render("cpp.html", {"name":faker.name.findName()});
 });
 
 app.get("/cs", function(req, res) {
-    res.render("cs.ejs", {"name":faker.name.findName()});
+    res.render("cs.html", {"name":faker.name.findName()});
 });
 
 app.get("/java", function(req, res) {
-    res.render("java.ejs", {"name":faker.name.findName()});
+    res.render("java.html", {"name":faker.name.findName()});
 });
 
 app.get("/python", function(req, res) {
-    res.render("python.ejs", {"name":faker.name.findName()});
+    res.render("python.html", {"name":faker.name.findName()});
 });
 
 
