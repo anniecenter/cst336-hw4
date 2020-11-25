@@ -11,13 +11,7 @@ h1 {
     margin: 0px;
     padding: 15px;
     width: 100%;
-}
-
-nav {
-    width: 100%;
-    top: 68px;
-    position: fixed;
-    background-color: #212326;
+    text-align: center;
 }
 
 nav a {
@@ -32,9 +26,18 @@ nav a:hover {
     color: #212326;
 }
 
+nav {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 article {
     padding: 15px;
     padding-top: 100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
 }
 
@@ -43,3 +46,23 @@ footer {
     padding: 15px;
 }
 
+img {
+    width: 100px;
+    height: auto;
+}
+
+figure {
+    padding-top: 10%;
+}
+
+#navbar {
+    width: 100%;
+    top: 68px;
+    position: fixed;
+    background-color: #212326;
+    text-align: center;
+}
+
+#csumb_logo {
+    width: 200px;
+}
